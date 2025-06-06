@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otodoke Sound$ - Producer / Artist</title>
+    <!-- Font Awesomeの読み込み -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo" data-text="Otodoke Sound$">Otodoke Sound$</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#collaboration">Collaboration</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <canvas id="hero-canvas"></canvas>
+            <div class="hero-content">
+                <h1>Hokkaido Snow Meets Bangkok Heat.</h1>
+                <p>Producer / Artist from Japan</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="images/otodokesound.jpg" alt="Otodoke Sound$のプロフィール画像">
+                </div>
+                <div class="profile-text">
+                    <h3>とろけるタイプの道産子クリエイター</h3>
+                    <p>BGM制作・楽曲リリースを軸に活動中。アイヌの伝統音源を現代の技術でリファインしたり、タイの街の喧騒をチルホップに昇華するなど、文化保存とテクノロジーの融合を実践しています。</p>
+                    <p>タイ料理への愛も、私のクリエイティブの源泉です。</p>
+                    <div class="sns-links">
+                        <a href="https://x.com/otodoke_sound" target="_blank" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" target="_blank" aria-label="Linktree"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work">
+            <h2>My Work</h2>
+            <div class="work-tabs">
+                <button class="tab-btn active" data-category="all">All</button>
+                <button class="tab-btn" data-category="lofi">Lo-Fi / Chillhop</button>
+                <button class="tab-btn" data-category="world">World / Ethno</button>
+                <button class="tab-btn" data-category="bgm">Oriental BGM</button>
+            </div>
+            <div class="work-grid"></div>
+        </section>
+
+        <section id="collaboration">
+            <h2>Collaboration</h2>
+            <div class="collab-list">
+                 <div class="collab-item">
+                    <div class="collab-year">2025</div>
+                    <div class="collab-content">
+                        <div class="collab-image">
+                            <img src="images/tomyumkung.jpg" alt="とっととトムヤムクン">
+                        </div>
+                        <div class="collab-text">
+                            <h3>とっととトムヤムクン (feat. ソムタム後藤)</h3>
+                            <p><strong>相手:</strong> ソムタム後藤 (MC), erisabaai (映像/デザイン)<br>
+                               タイ・フードカルチャーをテーマにした多国籍コラボ。タイ語＋北海道弁のハイブリッドなリリックと、屋台シーンを4K撮影したMVが特徴。</p>
+                            <a href="#" target="_blank" class="collab-link">Watch MV</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="collab-item">
+                    <div class="collab-year">2022</div>
+                    <div class="collab-content">
+                        <div class="collab-image">
+                             <!-- 定山渓の画像があればここに設定 e.g., images/jozankei.jpg -->
+                            <img src="https://via.placeholder.com/200x200/00ADB5/1A1A2E?text=Jozankei" alt="定山渓温泉 4K Chill Walk">
+                        </div>
+                        <div class="collab-text">
+                            <h3>定山渓温泉 4K Chill Walk BGM</h3>
+                            <p><strong>相手:</strong> ローカル観光系クリエイター<br>
+                               札幌の奥座敷、定山渓の美しい風景動画にBGMを提供。観光PR動画での使用実績。</p>
+                            <a href="#" target="_blank" class="collab-link">Watch Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="collab-item">
+                    <div class="collab-year">2022~</div>
+                     <div class="collab-content">
+                        <div class="collab-image">
+                            <!-- Audiostockのロゴなどがあればここに設定 -->
+                            <img src="https://via.placeholder.com/200x200/F95738/1A1A2E?text=Audiostock" alt="Audiostock">
+                        </div>
+                        <div class="collab-text">
+                            <h3>Audiostock 公式コンピレーション</h3>
+                            <p><strong>相手:</strong> Audiostock運営<br>
+                               『Oriental Vol.20』『R&B Vol.11』に楽曲が採用。BGMライブラリでの採用実績は、クオリティの証明です。</p>
+                            <a href="#" target="_blank" class="collab-link">Listen on Apple Music</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact-title-wrapper">
+                <canvas id="wave-canvas"></canvas>
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-content">
+                <p>BGM制作のご依頼、コラボレーションのご相談など、お気軽にご連絡ください。</p>
+                <div class="contact-buttons">
+                    <button class="contact-btn" data-type="BGM制作依頼">BGM制作依頼</button>
+                    <button class="contact-btn" data-type="コラボ相談">コラボ相談</button>
+                    <button class="contact-btn" data-type="その他">その他</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <div id="contact-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <h3 id="modal-inquiry-type">お問い合わせフォーム</h3>
+            <form id="main-contact-form">
+                <input type="hidden" id="inquiry-type-input" name="inquiry-type">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name">Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <button type="submit" class="form-submit-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="hero-canvas.js"></script>
+    <script src="wave-canvas.js"></script>
+    <script src="main.js"></script>
+</body>
+</html><footer>
+        <p>&copy; 2025 株式会社レアワークス / Rareworks Co., Ltd. All rights reserved.</p>
+    </footer>

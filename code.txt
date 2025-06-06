@@ -1,0 +1,7 @@
+my-portfolio/
+├── index.html         (これから作成)
+├── style.css          (これから作成)
+├── main.js            (これから作成)
+├── hero-canvas.js     (これから作成)
+├── wave-canvas.js     (これから作成)
+└── images/            (空のフォルダ)
