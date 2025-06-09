@@ -6,7 +6,7 @@
     <title>Otodoke Sound$ - Producer / Artist</title>
     <!-- Font Awesomeの読み込み -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=1">
 </head>
 <body>
     <header>
@@ -22,11 +22,11 @@
     </header>
 
     <main>
-        <section id="hero">
+        <section id="hero" style="padding: 1rem;">
             <canvas id="hero-canvas"></canvas>
-            <div class="hero-content">
-                <h1>Hokkaido Snow Meets Bangkok Heat.</h1>
-                <p>Producer / Artist from Japan</p>
+            <div class="hero-content" style="text-align: center;">
+                <h1 style="font-size: 4rem; letter-spacing: 1.2px; background: linear-gradient(90deg, var(--color-accent-blue), var(--color-accent-orange), var(--color-accent-blue)); background-size: 200% auto; color: #000; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: gradient-text 5s linear infinite; text-shadow: 0 0 1px rgba(255,255,255,0.5); white-space: nowrap; margin-bottom: 2rem;">Hokkaido Snow Meets Bangkok Heat.</h1>
+                <p style="font-size: 2.6rem; color: var(--color-text); opacity: 0.9; margin-bottom: 3rem;">Producer / Artist from Hokkaido Japan</p>
             </div>
         </section>
 
@@ -34,7 +34,7 @@
             <h2>About Me</h2>
             <div class="about-content">
                 <div class="profile-image">
-                    <img src="images/otodokesound.jpg" alt="Otodoke Sound$のプロフィール画像">
+                    <img src="images/metaani4.gif?v=2" alt="Otodoke Sound$のプロフィール画像" style="width: 100%; height: auto; max-width: 400px; object-fit: contain;">
                 </div>
                 <div class="profile-text">
                     <h3>とろけるタイプの道産子クリエイター</h3>
@@ -59,29 +59,63 @@
                 <button class="tab-btn" data-category="bgm">Oriental BGM</button>
             </div>
             <div class="work-grid">
-                <div class="work-item">
-                    <img src="images/maure-wave.jpg" alt="MAURE Wave">
+                <div class="work-item" data-category="lofi">
+                    <img src="images/maure-wave.jpg?v=1" alt="MAURE Wave">
                     <div class="work-item-content">
                         <h3>MAURE Wave</h3>
                         <p>Tapeサチュレーションとアナログシンセの温かみが特徴。</p>
                         <div class="work-links">
-                            <a href="https://share.amuse.io/track/otodoke-sound-maure-wave" target="_blank" class="work-link"><i class="fa-solid fa-music"></i> Listen</a>
                             <a href="https://open.spotify.com/intl-ja/track/1rr0X5PaMziJzYGhNDqZLB?utm_source=1101lBnYGnYf&utm_medium=Indie_Amuse&utm_campaign=labelaffiliate" target="_blank" class="work-link spotify-link"><i class="fa-brands fa-spotify"></i> Spotify</a>
                             <a href="https://music.apple.com/us/album/maure-wave/1697116173?i=1697116175" target="_blank" class="work-link apple-link"><i class="fa-brands fa-apple"></i> Apple Music</a>
                             <a href="https://music.youtube.com/watch?v=-PVDalXifCI" target="_blank" class="work-link youtube-link"><i class="fa-brands fa-youtube"></i> YouTube Music</a>
                         </div>
                     </div>
                 </div>
-                <div class="work-item">
-                    <img src="images/ainuera.jpg" alt="AinuEra">
+                <div class="work-item" data-category="world">
+                    <img src="images/ainuera.jpg?v=1" alt="AinuEra">
                     <div class="work-item-content">
                         <h3>AinuEra</h3>
-                        <p>アイヌ民族楽器のトンコリとムックリを使用したLO-FIサウンド。</p>
+                        <p>アイヌの伝統音源と現代のエレクトロニカを融合させた楽曲。</p>
                         <div class="work-links">
-                            <a href="https://share.amuse.io/track/otodoke-sound-ainuera" target="_blank" class="work-link"><i class="fa-solid fa-music"></i> Listen</a>
-                            <a href="https://open.spotify.com/intl-ja/track/0DsAOozzAJEDro1b9p9zsE?utm_source=1101lBnYGMWw&utm_medium=Indie_Amuse&utm_campaign=labelaffiliate" target="_blank" class="work-link spotify-link"><i class="fa-brands fa-spotify"></i> Spotify</a>
-                            <a href="https://music.apple.com/us/album/ainuera/1607462052?i=1607462056" target="_blank" class="work-link apple-link"><i class="fa-brands fa-apple"></i> Apple Music</a>
-                            <a href="https://music.youtube.com/watch?v=6c4Fvvodqws" target="_blank" class="work-link youtube-link"><i class="fa-brands fa-youtube"></i> YouTube Music</a>
+                            <a href="https://open.spotify.com/intl-ja/track/1rr0X5PaMziJzYGhNDqZLB?utm_source=1101lBnYGnYf&utm_medium=Indie_Amuse&utm_campaign=labelaffiliate" target="_blank" class="work-link spotify-link"><i class="fa-brands fa-spotify"></i> Spotify</a>
+                            <a href="https://music.apple.com/us/album/ainu-era/1697116173?i=1697116175" target="_blank" class="work-link apple-link"><i class="fa-brands fa-apple"></i> Apple Music</a>
+                            <a href="https://music.youtube.com/watch?v=-PVDalXifCI" target="_blank" class="work-link youtube-link"><i class="fa-brands fa-youtube"></i> YouTube Music</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item" data-category="bgm">
+                    <img src="images/oriental-20.jpg?v=1" alt="Night Cruise on the Chao Phraya River">
+                    <div class="work-item-content">
+                        <h3>Night Cruise on the Chao Phraya River</h3>
+                        <p>バンコクのチャオプラヤー川の夜景をイメージしたBGM。</p>
+                        <div class="work-links">
+                            <a href="https://open.spotify.com/intl-ja/track/1rr0X5PaMziJzYGhNDqZLB?utm_source=1101lBnYGnYf&utm_medium=Indie_Amuse&utm_campaign=labelaffiliate" target="_blank" class="work-link spotify-link"><i class="fa-brands fa-spotify"></i> Spotify</a>
+                            <a href="https://music.apple.com/us/album/night-cruise-on-the-chao-phraya-river/1697116173?i=1697116175" target="_blank" class="work-link apple-link"><i class="fa-brands fa-apple"></i> Apple Music</a>
+                            <a href="https://music.youtube.com/watch?v=-PVDalXifCI" target="_blank" class="work-link youtube-link"><i class="fa-brands fa-youtube"></i> YouTube Music</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item" data-category="lofi">
+                    <img src="images/rb-11.jpg?v=1" alt="Tape Stop Nostalgic">
+                    <div class="work-item-content">
+                        <h3>Tape Stop Nostalgic</h3>
+                        <p>80年代のテープデッキの音質を再現したノスタルジックな楽曲。</p>
+                        <div class="work-links">
+                            <a href="https://open.spotify.com/intl-ja/track/1rr0X5PaMziJzYGhNDqZLB?utm_source=1101lBnYGnYf&utm_medium=Indie_Amuse&utm_campaign=labelaffiliate" target="_blank" class="work-link spotify-link"><i class="fa-brands fa-spotify"></i> Spotify</a>
+                            <a href="https://music.apple.com/us/album/tape-stop-nostalgic/1697116173?i=1697116175" target="_blank" class="work-link apple-link"><i class="fa-brands fa-apple"></i> Apple Music</a>
+                            <a href="https://music.youtube.com/watch?v=-PVDalXifCI" target="_blank" class="work-link youtube-link"><i class="fa-brands fa-youtube"></i> YouTube Music</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item" data-category="bgm">
+                    <img src="images/thailand-horikachers.jpg?v=1" alt="Thailand ホリッカーズ">
+                    <div class="work-item-content">
+                        <h3>Thailand ホリッカーズ</h3>
+                        <p>タイの市場の喧騒をサンプリングしたBGM。</p>
+                        <div class="work-links">
+                            <a href="https://open.spotify.com/intl-ja/track/1rr0X5PaMziJzYGhNDqZLB?utm_source=1101lBnYGnYf&utm_medium=Indie_Amuse&utm_campaign=labelaffiliate" target="_blank" class="work-link spotify-link"><i class="fa-brands fa-spotify"></i> Spotify</a>
+                            <a href="https://music.apple.com/us/album/thailand-horikers/1697116173?i=1697116175" target="_blank" class="work-link apple-link"><i class="fa-brands fa-apple"></i> Apple Music</a>
+                            <a href="https://music.youtube.com/watch?v=-PVDalXifCI" target="_blank" class="work-link youtube-link"><i class="fa-brands fa-youtube"></i> YouTube Music</a>
                         </div>
                     </div>
                 </div>
@@ -106,8 +140,7 @@
                             <div class="youtube-embed">
                                 <iframe width="100%" height="200" src="https://www.youtube.com/embed/u_Lox5_e2ZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
-                            <h3>AinuEra</h3>
-                            <p>アイヌ民族楽器のトンコリとムックリを使用したLO-FIサウンド。</p>
+
                         </div>
                     </div>
                 </div>
@@ -175,7 +208,8 @@
     </div>
     
     <script src="hero-canvas.js"></script>
-    <script src="wave-canvas.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="data.js"></script>
     <script src="main.js"></script>
 </body>
 </html><footer>
